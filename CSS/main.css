@@ -1,0 +1,24 @@
+/* нормализация */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0px;
+}
+
+.task {
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 10px 0px 0px 30px;
+}
