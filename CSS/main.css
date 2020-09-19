@@ -35,3 +35,17 @@ body {
   width: 400px;
   margin: 10px;
 }
+
+/* задание 6 */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
