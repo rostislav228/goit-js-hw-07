@@ -14,10 +14,6 @@ const rest = {
   value: document.querySelector('#value'),
 };
 
-console.log(rest.decrementButton);
-console.log(rest.incrementButton);
-console.log(rest.value);
-
 let counterValue = 0;
 
 rest.incrementButton.addEventListener('click', onIncrementClick);
