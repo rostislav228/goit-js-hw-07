@@ -20,15 +20,9 @@ console.log(rest.value);
 
 let counterValue = 0;
 
-const increment = rest.incrementButton.addEventListener(
-  'click',
-  onIncrementClick,
-);
+rest.incrementButton.addEventListener('click', onIncrementClick);
 
-const decrement = rest.decrementButton.addEventListener(
-  'click',
-  onDecrementClick,
-);
+rest.decrementButton.addEventListener('click', onDecrementClick);
 
 function onIncrementClick() {
   counterValue += 1;
