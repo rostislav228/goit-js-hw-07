@@ -8,7 +8,7 @@
 // Добавь слушатели кликов на кнопки, вызовы функций и
 // обновление интерфейса
 
-const refs = {
+const rest = {
   decrementButton: document.querySelector('[data-action="decrement"]'),
   incrementButton: document.querySelector('[data-action="increment"]'),
   value: document.querySelector('#value'),

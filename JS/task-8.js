@@ -14,7 +14,7 @@
 // предыдущего на 10px
 // Создай функцию destroyBoxes(), которая очищает div#boxes.
 
-const refs = {
+const rest = {
   render: document.querySelector('[data-action="render"]'),
   destroy: document.querySelector('[data-action="destroy"]'),
   input: document.querySelector('#controls > input'),
