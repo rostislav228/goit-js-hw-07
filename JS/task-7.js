@@ -3,7 +3,7 @@
 // изменяет инлайн - стиль span#text обновляя свойство font - size.
 // В результате при перетаскивании ползунка будет меняться размер текста.
 
-const rest = {
+const refs = {
   input: document.querySelector('#font-size-control'),
   text: document.querySelector('#text'),
 };

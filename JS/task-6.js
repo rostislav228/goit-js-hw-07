@@ -5,7 +5,7 @@
 // если неправильное - красным.
 // Для добавления стилей, используй CSS - классы valid и invalid.
 
-const rest = {
+const refs = {
   input: document.querySelector('#validation-input'),
 };
 

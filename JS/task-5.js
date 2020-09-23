@@ -3,7 +3,7 @@
 // текущее значение в span#name - output.Если инпут пустой,
 // в спане должна отображаться строка 'незнакомец'.
 
-const rest = {
+const refs = {
   nameInput: document.querySelector('#name-input'),
   nameOutput: document.querySelector('#name-output'),
 };
